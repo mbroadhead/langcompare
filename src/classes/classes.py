@@ -12,10 +12,8 @@ class Dog(object):
     def tag(self):
         return self.name + " the " + self.breed
 
-    def pic(self):
 
-
-dog = new Dog("Finn", "Labrador")
+dog = Dog("Finn", "Labrador")
 
 # paranthesis are required
 print dog.tag()

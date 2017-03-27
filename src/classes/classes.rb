@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
+# instance variables are prefixed with '@' and it's scope is confined to
+# whatever object 'self' refers to.
+
 class Dog
   def initialize(name, breed)
     @name = name
